@@ -46,7 +46,15 @@ In the initial phase of the Data cleaning and preparations, i perform the follow
 
 Exploratory Data Analysis  involved the exploring of the Data to answer some questions a bout the Data such as :
 
-•	Excel Analysis:
+- What is the highest Sales Performance
+
+- The highest Performing Region
+
+- The top selling Product
+
+- The overall Monthly sales Trend
+
+###Data Analysis:
 
 o	Utilized pivot tables to calculate total sales by product, region, and month.
 
