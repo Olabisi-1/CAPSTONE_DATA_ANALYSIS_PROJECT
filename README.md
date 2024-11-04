@@ -5,7 +5,7 @@ Project 1: Sales Performance Analysis for a Retail Store
 
 
 1.## Project Objective
-•	This Data Analysis project aim to generate insight into the sales performance of a retail store over the past year. Analyzing sales data to identify top-selling products, regional performance, and monthly sales trends by using various perimeters to evaluate the data received and get enough insight to make reasonable decisions which enables us to tell compelling stories around our data. 
+•	This Data Analysis project aim to generate an insight into the sales performance of a retail store over the past year. Analyzing sales data to identify top-selling products, regional performance, and monthly sales trends by using various perimeters to evaluate sales performance from the data received and get enough insight to make reasonable decisions which them enable us to tell compelling stories around our data. 
 •	Develop an interactive Power BI dashboard summarizing sales metrics.
 
 
