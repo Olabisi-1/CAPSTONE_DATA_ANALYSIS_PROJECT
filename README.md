@@ -4,12 +4,12 @@
 Project 1: Sales Performance Analysis for a Retail Store
 
 
-1.## Project Objective
+1.###Project Objective
 •	This Data Analysis project aim to generate an insight into the sales performance of a retail store over the past year. Analyzing sales data to identify top-selling products, regional performance, and monthly sales trends by using various perimeters to evaluate sales performance from the data received and get enough insight to make reasonable decisions which them enable us to tell compelling stories around our data. 
 •	Develop an interactive Power BI dashboard summarizing sales metrics.
 
 
-2. ##Data Sources
+2. ###Data Sources
 
    The primary source of Data used here is SalesData from an Excel sheet provided by the LITA for the final project
 
@@ -20,7 +20,7 @@ Project 1: Sales Performance Analysis for a Retail Store
 •	Data Notes: The dataset provides product-specific sales details across regions and timeframes.
 
 
-4. ##Tools Used
+3. ###Tools Used
 
 •	Excel: For data exploration, summary reports, and calculations.
 
@@ -29,7 +29,7 @@ Project 1: Sales Performance Analysis for a Retail Store
 •	Power BI: Visualization of findings.
 
 
-5. ##Methodology and Steps
+4. ###Methodology and Steps
 
 •	Excel Analysis:
 
@@ -95,7 +95,7 @@ o	Visualized insights from Excel and SQL analysis to include:
 	Monthly sales trends
 
 
-6. ##Key Insights from Sales Performance Analysis
+5. ##Key Insights from Sales Performance Analysis
 
 •	Top-Selling Product: Shoes had the highest sales at $3,087,500.
 
