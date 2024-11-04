@@ -12,18 +12,25 @@ Project 1: Sales Performance Analysis for a Retail Store
 2. ##Data Sources
 
    The primary source of Data used here is SalesData from an Excel sheet provided by the LITA for the final project
+
 •	File Name: SalesData
+
 •	Key Columns: Product, Region, OrderDate, Quantity, UnitPrice
+
 •	Data Notes: The dataset provides product-specific sales details across regions and timeframes.
 
 
 4. ##Tools Used
+
 •	Excel: For data exploration, summary reports, and calculations.
+
 •	MYSQL Server: Data querying and insight extraction.
+
 •	Power BI: Visualization of findings.
 
 
 5. ##Methodology and Steps
+
 •	Excel Analysis:
 
 o	Utilized pivot tables to calculate total sales by product, region, and month.
@@ -46,8 +53,11 @@ SELECT Product, SUM (Quantity * UnitPrice) AS TotalSales FROM SalesData GROUP BY
 
 o	Sales Transactions by Region:
 
+
 ###Code:
+
 SELECT Region, COUNT(OrderID) AS SalesTransactions FROM SalesData GROUP BY Region;
+
 o	Highest-Selling Product by Total Sales:
 
 ###Code:
@@ -83,6 +93,7 @@ o	Visualized insights from Excel and SQL analysis to include:
 	Regional sales distribution
 
 	Monthly sales trends
+
 
 6. ##Key Insights from Sales Performance Analysis
 
