@@ -4,15 +4,15 @@
 Project 1: Sales Performance Analysis for a Retail Store
 
 
-1.###Project Objective
-
+###Project Objective/Overview
+---
 •	This Data Analysis project aim to generate an insight into the sales performance of a retail store over the past year. Analyzing sales data to identify top-selling products, regional performance, and monthly sales trends by using various perimeters to evaluate sales performance from the data received and get enough insight to make reasonable decisions which them enable us to tell compelling stories around our data. 
 
 •	Develop an interactive Power BI dashboard summarizing sales metrics.
 
 
-2. ###Data Sources
-
+ ###Data Sources
+---
    The primary source of Data used here is SalesData from an Excel sheet provided by the LITA for the final project
 
 •	File Name: SalesData
@@ -22,8 +22,8 @@ Project 1: Sales Performance Analysis for a Retail Store
 •	Data Notes: The dataset provides product-specific sales details across regions and timeframes.
 
 
-3. ###Tools Used
-
+ ###Tools Used
+---
 •	Excel: For data exploration, summary reports, and calculations.
 
 •	MYSQL Server: Structured Query Language for Data querying and insight extraction.
@@ -31,8 +31,8 @@ Project 1: Sales Performance Analysis for a Retail Store
 •	Power BI: Visualization of findings.
 
 
-4. ###Data Cleaning And Preparation
-
+ ###Data Cleaning And Preparation
+---
 In the initial phase of the Data cleaning and preparations, i perform the following actions:
 
 - Data loading and Inspection
@@ -42,8 +42,8 @@ In the initial phase of the Data cleaning and preparations, i perform the follow
 - Data cleaning and formating
 
 
-4. ###Exploratory Data Analysis
-
+ ###Exploratory Data Analysis
+---
 Exploratory Data Analysis  involved the exploring of the Data to answer some questions a bout the Data such as :
 
 - What is the highest Sales Performance
@@ -55,7 +55,7 @@ Exploratory Data Analysis  involved the exploring of the Data to answer some que
 - The overall Monthly sales Trend
 
 ###Data Analysis:
-
+---
 o	Utilized pivot tables to calculate total sales by product, region, and month.
 
 o	Used formulas to compute metrics like average sales per product and total regional revenue.
@@ -72,14 +72,14 @@ o	Total Sales by Product Category:
 
 ###Code:
 
-SELECT Product, SUM (Quantity * UnitPrice) AS TotalSales FROM SalesData GROUP BY Product;
+SELECT * Product, SUM (Quantity * UnitPrice) AS TotalSales FROM SalesData GROUP BY Product;
 
 o	Sales Transactions by Region:
 
 
 ###Code:
 
-SELECT Region, COUNT(OrderID) AS SalesTransactions FROM SalesData GROUP BY Region;
+SELECT * Region, COUNT(OrderID) AS SalesTransactions FROM SalesData GROUP BY Region;
 
 o	Highest-Selling Product by Total Sales:
 
