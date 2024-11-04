@@ -1,4 +1,4 @@
-# SALES_DATA_SET_PERFORMANANCE_ANALYSIS
+# SALES_DATA_PERFORMANANCE_ANALYSIS
 
 ##Project Documentation for Sales Performance Analysis and Customer Segmentation
 Project 1: Sales Performance Analysis for a Retail Store
