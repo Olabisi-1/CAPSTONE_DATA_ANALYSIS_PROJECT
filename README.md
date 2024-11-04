@@ -44,7 +44,7 @@ SELECT Product, SUM (Quantity * UnitPrice) AS TotalSales FROM SalesData GROUP BY
 
 o	Sales Transactions by Region:
 
-######Code:
+###Code:
 SELECT Region, COUNT(OrderID) AS SalesTransactions FROM SalesData GROUP BY Region;
 o	Highest-Selling Product by Total Sales:
 
@@ -55,23 +55,41 @@ SELECT Product, SUM (Quantity * UnitPrice) AS TotalSales FROM SalesData GROUP BY
 o	Monthly Sales for Current Year:
 
 ###Code:
+
 SELECT MONTH(OrderDate) AS Month, SUM (Quantity * UnitPrice) AS MonthlySales FROM SalesData WHERE YEAR(OrderDate) = 2023 GROUP BY Month;
+
 o	Top 5 Customers by Purchase Amount:
-Code:
+
+###Code:
+
 SELECT CustomerId, SUM (Quantity * UnitPrice) AS TotalPurchase FROM SalesData GROUP BY CustomerId ORDER BY TotalPurchase DESC LIMIT 5;
+
 o	Products with No Sales in the Last Quarter:
-Code:
+
+###Code:
+
 SELECT Product FROM InventoryData WHERE Product NOT IN (SELECT DISTINCT Product FROM SalesData WHERE OrderDate >= '2023-07-01' AND OrderDate <= '2023-09-30');
+
 •	Power BI Dashboard:
+
 o	Visualized insights from Excel and SQL analysis to include:
+
 	Sales overview
+
 	Top-performing products
+
 	Regional sales distribution
+
 	Monthly sales trends
-6. Key Insights from Sales Performance Analysis
+
+6. ##Key Insights from Sales Performance Analysis
+
 •	Top-Selling Product: Shoes had the highest sales at $3,087,500.
+
 •	Regional Sales Contribution: The South region contributed the largest percentage of total sales at 44.16%.
+
 •	Monthly Sales Trends: Highest monthly sales were recorded in February.
+
 •	Top Customers: Customer Cus1488 had the highest purchase amount at $29,340.
 ________________________________________
 
