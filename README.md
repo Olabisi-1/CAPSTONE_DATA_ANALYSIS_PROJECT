@@ -42,7 +42,9 @@ In the initial phase of the Data cleaning and preparations, i perform the follow
 - Data cleaning and formating
 
 
-4. ###Methodology and Steps
+4. ###Exploratory Data Analysis
+
+Exploratory Data Analysis  involved the exploring of the Data to answer some questions a bout the Data such as :
 
 •	Excel Analysis:
 
