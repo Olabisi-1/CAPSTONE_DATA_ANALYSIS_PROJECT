@@ -2,25 +2,35 @@
 
 ##Project Documentation for Sales Performance Analysis and Customer Segmentation
 Project 1: Sales Performance Analysis for a Retail Store
-1. Project Objective
+
+
+1.## Project Objective
 •	Analyze sales data to identify top-selling products, regional performance, and monthly sales trends.
 •	Develop an interactive Power BI dashboard summarizing sales metrics.
-2. Dataset
+
+
+2. ##Dataset
 •	File Name: SalesData
 •	Key Columns: Product, Region, OrderDate, Quantity, UnitPrice
 •	Data Notes: The dataset provides product-specific sales details across regions and timeframes.
-3. Tools Used
+
+
+3. ##Tools Used
 •	Excel: For data exploration, summary reports, and calculations.
-•	SQL Server: Data querying and insight extraction.
+•	MYSQL Server: Data querying and insight extraction.
 •	Power BI: Visualization of findings.
-4. Methodology and Steps
+
+
+4. ##Methodology and Steps
 •	Excel Analysis:
 o	Utilized pivot tables to calculate total sales by product, region, and month.
 o	Used formulas to compute metrics like average sales per product and total regional revenue.
 o	Added a Power Query column to categorize sales volume as Low (1–20 units), Medium (21–50), or High (>50) based on the [Unit Sold] column, as provided in the attachment instructions (LITA CAPSTONE DATASET_S…).
-•	SQL Analysis:
-o	After importing the dataset into SQL Server, the following queries were run to generate insights:
+•	MYSQL Analysis:
+o	After importing the dataset into MYSQL Server, the following queries were run to generate insights:
 o	Total Sales by Product Category:
+
+
 Code:
 SELECT Product, SUM (Quantity * UnitPrice) AS TotalSales FROM SalesData GROUP BY Product;
 o	Sales Transactions by Region:
@@ -44,11 +54,11 @@ o	Visualized insights from Excel and SQL analysis to include:
 	Top-performing products
 	Regional sales distribution
 	Monthly sales trends
-5. Key Insights from Sales Performance Analysis
+6. Key Insights from Sales Performance Analysis
 •	Top-Selling Product: Shoes had the highest sales at $3,087,500.
 •	Regional Sales Contribution: The South region contributed the largest percentage of total sales at 44.16%.
 •	Monthly Sales Trends: Highest monthly sales were recorded in February.
 •	Top Customers: Customer Cus1488 had the highest purchase amount at $29,340.
 ________________________________________
-Project 2: Customer Segmentation for a Subscription Service
+
 
