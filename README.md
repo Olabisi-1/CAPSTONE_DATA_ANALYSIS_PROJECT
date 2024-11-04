@@ -31,6 +31,17 @@ Project 1: Sales Performance Analysis for a Retail Store
 •	Power BI: Visualization of findings.
 
 
+4. ###Data Cleaning And Preparation
+
+In the initial phase of the Data cleaning and preparations, i perform the following actions:
+
+- Data loading and Inspection
+
+- handling missing variables
+
+- Data cleaning and formating
+
+
 4. ###Methodology and Steps
 
 •	Excel Analysis:
