@@ -23,24 +23,38 @@ Project 1: Sales Performance Analysis for a Retail Store
 
 4. ##Methodology and Steps
 •	Excel Analysis:
+
 o	Utilized pivot tables to calculate total sales by product, region, and month.
+
 o	Used formulas to compute metrics like average sales per product and total regional revenue.
+
 o	Added a Power Query column to categorize sales volume as Low (1–20 units), Medium (21–50), or High (>50) based on the [Unit Sold] column, as provided in the attachment instructions (LITA CAPSTONE DATASET_S…).
-•	MYSQL Analysis:
+
+
+•	###MYSQL Analysis:
+
 o	After importing the dataset into MYSQL Server, the following queries were run to generate insights:
+
 o	Total Sales by Product Category:
 
 
-Code:
+###Code:
+
 SELECT Product, SUM (Quantity * UnitPrice) AS TotalSales FROM SalesData GROUP BY Product;
+
 o	Sales Transactions by Region:
-Code:
+
+######Code:
 SELECT Region, COUNT(OrderID) AS SalesTransactions FROM SalesData GROUP BY Region;
 o	Highest-Selling Product by Total Sales:
-Code:
+
+###Code:
+
 SELECT Product, SUM (Quantity * UnitPrice) AS TotalSales FROM SalesData GROUP BY Product ORDER BY TotalSales DESC LIMIT 1;
+
 o	Monthly Sales for Current Year:
-Code:
+
+###Code:
 SELECT MONTH(OrderDate) AS Month, SUM (Quantity * UnitPrice) AS MonthlySales FROM SalesData WHERE YEAR(OrderDate) = 2023 GROUP BY Month;
 o	Top 5 Customers by Purchase Amount:
 Code:
