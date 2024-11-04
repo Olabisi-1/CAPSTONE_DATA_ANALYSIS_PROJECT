@@ -24,7 +24,7 @@ Project 1: Sales Performance Analysis for a Retail Store
 
 •	Excel: For data exploration, summary reports, and calculations.
 
-•	MYSQL Server: Data querying and insight extraction.
+•	MYSQL Server: Structured Query Language for Data querying and insight extraction.
 
 •	Power BI: Visualization of findings.
 
