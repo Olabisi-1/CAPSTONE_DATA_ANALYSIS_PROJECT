@@ -9,19 +9,21 @@ Project 1: Sales Performance Analysis for a Retail Store
 •	Develop an interactive Power BI dashboard summarizing sales metrics.
 
 
-2. ##Dataset
+2. ##Data Sources
+
+   The primary source of Data used here is SalesData from an Excel sheet provided by the LITA for the final project
 •	File Name: SalesData
 •	Key Columns: Product, Region, OrderDate, Quantity, UnitPrice
 •	Data Notes: The dataset provides product-specific sales details across regions and timeframes.
 
 
-3. ##Tools Used
+4. ##Tools Used
 •	Excel: For data exploration, summary reports, and calculations.
 •	MYSQL Server: Data querying and insight extraction.
 •	Power BI: Visualization of findings.
 
 
-4. ##Methodology and Steps
+5. ##Methodology and Steps
 •	Excel Analysis:
 
 o	Utilized pivot tables to calculate total sales by product, region, and month.
